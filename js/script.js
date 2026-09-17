@@ -80,7 +80,7 @@ const posicao = Math.floor(Math.random()* lista.length);
 }
 }
 function respostaSelecionada(opcaoSelecionada) {
-    const afirmacoes = opcaoSelecionada.afirmacao;
+    const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
     historiaFinal += afirmacoes + " ";
     atual++
     mostraPergunta();
