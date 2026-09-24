@@ -1,30 +1,35 @@
 export const perguntas = [
     {
-        enunciado: "O cyberbullying é a violência virtual que ocorre geralmente com as pessoas tímidas e indefesas, ou simplesmente por não caírem na simpatia das mesmas. Como podemos evitá-lo",
+        enunciado: "Se o país entrasse em uma recessão profunda, qual medida econômica deveria ser priorizada imediatamente?",
         alternativas: [
             {
-                texto: "Utilizando palestras para prevenir o cyberbullying nas escolas.",
-                afirmacao: "Você é uma pessoa reflexiva e busca aprendizado e conhecimento."
-            },
+                texto: "Reduzir impostos e cortar gastos públicos."
+                afirmacao: ["Focado em responsabilidade fiscal. Você acredita que a recuperação econômica vem da eficiência do mercado e que o governo deve gastar menos para atrair investimentos privados e controlar a inflação.",
+                " Prioriza o equilíbrio das contas públicas. Para você, o crescimento econômico é impulsionado pela livre iniciativa, sendo necessário que o Estado reduza seus desembolsos para estimular o capital privado e frear a alta dos preços."
+
+         ] },
             {
-                texto:  "Prestando atenção aos sinais de cyberbullying nas escolas.",
-                afirmacao: "Você é uma pessoa observadora, pois se preocupa com o bem estar dos seus alunos."
-            }    
+                texto:  "Aumentar os investimentos em obras públicas e programas sociais.",
+                afirmacao: ["Focado em estímulo à demanda. Você defende que o Estado deve agir como o motor da economia em tempos de crise, gerando empregos diretos e protegendo o poder de compra da população.",
+                "Direcionado para o incentivo ao consumo. Você sustenta que o setor público precisa liderar a reação econômica em períodos de recessão, injetando recursos para criar postos de trabalho e salvaguardar a renda dos cidadãos."
+         ] }    
            
         ]
     },
     {
        
-            enunciado: "As fontes renováveis de energia são aquelas formas de produção de energia em que suas fontes são capazes de manter-se disponíveis durante um longo prazo, contando com recursos que se regeneram ou que se mantêm ativos permanentemente. Com base nisso, temos a energia geotérmica, que consiste em utilizar o calor manifestado em áreas próximas à superfície. Qual a sua opinião sobre esse modelo de energia renovável?",
+            enunciado: "O Banco Central deve reduzir a taxa básica de juros mesmo com a inflação ainda acima da meta?",
             alternativas: [
                 {
-                    texto: "A energia geotérmica precisa ser mais explorada visto que utiliza o calor interno da terra, pois não depende do clima e é inesgotável.",
-                    afirmacao: "Você demonstra um perfil  de pesquisador e inovador que busca por meio da inovação soluções para o meio ambiente e sustentabilidade das gerações posteriores.",
+                    texto: "Sim, o foco deve ser o crescimento econômico e o emprego.",
+                    afirmacao: ["Prioriza o estímulo ao crédito. Você avalia que juros altos asfixiam o comércio e a indústria, e que o controle rígido da inflação não pode acontecer às custas do desemprego e da estagnação do país.",
+                    "Defende a flexibilização do crédito. Para você, juros elevados sufocam as empresas e o comércio, e combater rigidamente a inflação não se justifica se o preço pago for a paralisia do emprego e a estagnação produtiva."
 
-                },
+            ]},
                 {
-                    texto:  "Seria interessante explorar primeiramente fontes renováveis exotérmicas, em segundo plano utilizar a energia geotérmica apesar dos custos elevados de explorações e possibilidades de contaminação de rios. ",
-                    afirmacao: "Você é uma pessoa que dá ênfase em priorizar os recursos disponíveis, pensando no meio ambiente e sem descartar o viés econômico.",
+                    texto:  "Não, a estabilidade da moeda deve ser defendida a qualquer custo.",
+                    afirmacao: " Focado no controle do poder de compra. Você entende que ceder à inflação destrói a economia a longo prazo, sendo necessário manter os juros elevados para desestimular o consumo excessivo e ancorar os preços.",
+                    "Comprometido com a preservação do poder aquisitivo. Você compreende que tolerar a alta de preços desestabiliza o país no longo prazo, tornando indispensável a manutenção de juros altos para frear o consumo exagerado e estabilizar o mercado."
 
                 }    
                
