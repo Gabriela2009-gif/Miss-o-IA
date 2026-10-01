@@ -36,12 +36,13 @@ export const perguntas = [
             ]
         },
         {
-            enunciado: "Hoje em dia é cada vez mais importante conhecer o seu corpo, suas qualidades, suas limitações e entender suas emoções. Saber controlá-las é o desafio das pessoas. A sua auto-estima impacta a sua qualidade de vida?",
+            enunciado: "Em um cenário de inflação alta impulsionada pelo aumento nos preços dos alimentos e combustíveis, qual deve ser a postura do Banco Central em relação à taxa básica de juros (Selic)?",
 
             alternativas: [
                 {
-                    texto: "Na maior parte do tempo, com certeza impacta, pois é a partir da autoestima que temos um olhar positivo ou negativo sobre nossas ações diárias. Sempre estou em busca de mais autoconhecimento.",
-                    afirmacao: "Você tem consciência que é importante ter uma boa auto-estima e procura se aprofundar mais sobre o assunto, vendo a vida de um jeito positivo.",
+                    texto: "Elevação da Taxa de Juros (Aperto Monetário)",
+                    afirmacao: "O Banco Central deve subir os juros rapidamente para esfriar a demanda global, encarecer o crédito e atrair capital estrangeiro. Isso fortalece a moeda local, reduz as expectativas de inflação futura e estabiliza a economia no longo prazo.",
+                    "Subir juros contra uma inflação causada por choques de oferta (como secas ou guerras) é ineficaz. Isso só serve para gerar recessão e desemprego, além de aumentar o custo da dívida pública, sem resolver o problema do preço da comida ou do combustível."
 
                 },
                 {
