@@ -3,7 +3,7 @@ export const perguntas = [
         enunciado: "Se o país entrasse em uma recessão profunda, qual medida econômica deveria ser priorizada imediatamente?",
         alternativas: [
             {
-                texto: "Reduzir impostos e cortar gastos públicos."
+                texto: "Reduzir impostos e cortar gastos públicos.",
                 afirmacao: ["Focado em responsabilidade fiscal. Você acredita que a recuperação econômica vem da eficiência do mercado e que o governo deve gastar menos para atrair investimentos privados e controlar a inflação.",
                 " Prioriza o equilíbrio das contas públicas. Para você, o crescimento econômico é impulsionado pela livre iniciativa, sendo necessário que o Estado reduza seus desembolsos para estimular o capital privado e frear a alta dos preços."
 
