@@ -28,10 +28,10 @@ export const perguntas = [
             ]},
                 {
                     texto:  "Não, a estabilidade da moeda deve ser defendida a qualquer custo.",
-                    afirmacao: " Focado no controle do poder de compra. Você entende que ceder à inflação destrói a economia a longo prazo, sendo necessário manter os juros elevados para desestimular o consumo excessivo e ancorar os preços.",
+                    afirmacao:[ " Focado no controle do poder de compra. Você entende que ceder à inflação destrói a economia a longo prazo, sendo necessário manter os juros elevados para desestimular o consumo excessivo e ancorar os preços.",
                     "Comprometido com a preservação do poder aquisitivo. Você compreende que tolerar a alta de preços desestabiliza o país no longo prazo, tornando indispensável a manutenção de juros altos para frear o consumo exagerado e estabilizar o mercado."
 
-                }    
+            ]}    
                
             ]
         },
@@ -41,16 +41,17 @@ export const perguntas = [
             alternativas: [
                 {
                     texto: "Elevação da Taxa de Juros (Aperto Monetário)",
-                    afirmacao: "O Banco Central deve subir os juros rapidamente para esfriar a demanda global, encarecer o crédito e atrair capital estrangeiro. Isso fortalece a moeda local, reduz as expectativas de inflação futura e estabiliza a economia no longo prazo.",
+                    afirmacao: ["O Banco Central deve subir os juros rapidamente para esfriar a demanda global, encarecer o crédito e atrair capital estrangeiro. Isso fortalece a moeda local, reduz as expectativas de inflação futura e estabiliza a economia no longo prazo.",
                     "Subir juros contra uma inflação causada por choques de oferta (como secas ou guerras) é ineficaz. Isso só serve para gerar recessão e desemprego, além de aumentar o custo da dívida pública, sem resolver o problema do preço da comida ou do combustível."
 
-                },
+            ]},
                 {
-                    texto:    "Apenas ocasionalmente ou raramente. Às vezes minha autoestima oscila e isso pode afetar negativamente minha qualidade de vida em certas ocasiões.",
+                    texto:    "Manutenção ou Redução dos Juros com Intervenção Estrutural",
                
-                    afirmacao: "Você demomostra que precisa se conhecer mais e mostra uma consciência de uma crescente necessidade de cuidar mais da própria percepção e bem-estar emocional.",
+                    afirmacao:["Os juros devem ser mantidos baixos ou reduzidos para incentivar o investimento produtivo. O governo deve atuar diretamente usando estoques reguladores de alimentos, subsídios temporários nos combustíveis e investimentos estatais em logística para baixar os custos na raiz.",
+                    "Em vez de mexer nos juros ou congelar preços via governo, a solução é reduzir impostos sobre a produção e importação dos itens afetados. Ao desonerar a cadeia produtiva, a oferta aumenta, os custos caem e o mercado autorregula os preços sem sufocar o crédito."
 
-                }    
+            ]}    
                
             ]
         },
