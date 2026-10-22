@@ -38,7 +38,7 @@ const posicao = Math.floor(Math.random()* lista.length);
 function respostaSelecionada(opcaoSelecionada) {
     const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
     historiaFinal += afirmacoes + " ";
-    atual++
+    atual++;
     mostraPergunta();
 }
 
