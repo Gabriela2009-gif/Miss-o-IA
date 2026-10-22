@@ -1,3 +1,23 @@
+
+    mostraPergunta();
+}
+
+function mostraResultado(){
+    caixaPerguntas.textContent = "Olha só o que podemos afirmar sobre você...";
+    textoResultado.textContent = historiaFinal;
+    caixaAlternativas.textContent = "";
+    caixaResultado.classList.add("mostrar");
+    botaoJogarNovamente.addEventListener("click", jogaNovamente);
+}
+
+function jogaNovamente(){
+    atual = 0;
+    historiaFinal = "";
+    caixaResultado.classList.remove("mostrar");
+    mostraPergunta();
+}
+
+mostraPergunta();
 import {aleatorio} from './aleatorio.js';
 import {perguntas} from './perguntas.js';
 
@@ -39,22 +59,3 @@ function respostaSelecionada(opcaoSelecionada) {
     const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
     historiaFinal += afirmacoes + " ";
     atual++;
-    mostraPergunta();
-}
-
-function mostraResultado(){
-    caixaPerguntas.textContent = "Olha só o que podemos afirmar sobre você...";
-    textoResultado.textContent = historiaFinal;
-    caixaAlternativas.textContent = "";
-    caixaResultado.classList.add("mostrar");
-    botaoJogarNovamente.addEventListener("click", jogaNovamente);
-}
-
-function jogaNovamente(){
-    atual = 0;
-    historiaFinal = "";
-    caixaResultado.classList.remove("mostrar");
-    mostraPergunta();
-}
-
-mostraPergunta();
